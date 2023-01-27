@@ -23,11 +23,11 @@
     },
     "remediateSettings": {
         "enableRenovate": true,
-        "extends": ["github>whitesource/merge-confidence:beta"],
         "workflowRules": {
             "enabled": true,
             "minVulnerabilitySeverity": "LOW"
         },
-        "workflowRules.enabled": true
+        "workflowRules.enabled": true,
+        "extends": ["github>whitesource/merge-confidence:beta"]
     }
 }
