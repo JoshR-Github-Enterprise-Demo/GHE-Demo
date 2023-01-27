@@ -1,5 +1,6 @@
 using Conduit.Domain;
 
+//This is a comment
 namespace Conduit.Features.Articles
 {
     public class ArticleEnvelope
