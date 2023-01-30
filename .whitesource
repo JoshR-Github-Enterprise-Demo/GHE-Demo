@@ -16,7 +16,7 @@
         "useMendCheckNames": true
     },
     "issueSettings": {
-        "minSeverityLevel": "HIGH",
+        "minSeverityLevel": "LOW",
         "displayLicenseViolations": true,
         "issueType": "VULNERABILITY"
     },
