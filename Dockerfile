@@ -6,7 +6,7 @@ COPY . .
 RUN dotnet run -p build/build.csproj
 
 #runtime container
-FROM mcr.microsoft.com/dotnet/core/aspnet:3.1.3-alpine
+FROM mcr.microsoft.com/dotnet/core/aspnet:3.1.7-alpine
 
 COPY --from=build /build/publish /app
 WORKDIR /app
