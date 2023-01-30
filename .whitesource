@@ -16,7 +16,7 @@
         "useMendCheckNames": true
     },
     "issueSettings": {
-        "minSeverityLevel": "LOW",
+        "minSeverityLevel": "HIGH",
         "displayLicenseViolations": true,
         "issueType": "VULNERABILITY"
     },
@@ -27,6 +27,6 @@
             "minVulnerabilitySeverity": "LOW"
         },
         "workflowRules.enabled": true,
-        "extends": ["github>whitesource/merge-confidence:beta"]
+        "extends": ["github>whitesource/merge-confidence:beta", ":dependencyDashboard"]
     }
 }
