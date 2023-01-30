@@ -1,5 +1,5 @@
 #build container
-FROM mcr.microsoft.com/dotnet/core/sdk:3.1.201-alpine as build
+FROM mcr.microsoft.com/dotnet/core/sdk:3.1.401-alpine as build
 
 WORKDIR /build
 COPY . .
