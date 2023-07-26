@@ -21,7 +21,6 @@
         "issueType": "VULNERABILITY"
     },
     "remediateSettings": {
-        "enableRenovate": true,
         "workflowRules": {
             "enabled": true,
             "minVulnerabilitySeverity": "LOW"
